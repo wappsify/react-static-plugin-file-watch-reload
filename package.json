@@ -1,0 +1,36 @@
+{
+  "name": "react-static-plugin-file-watch-reload",
+  "version": "1.0.0",
+  "description": "A react-static plugin for development environments triggering route rebuilds when files change",
+  "keywords": [
+    "react-static",
+    "plugin",
+    "file",
+    "watch",
+    "reload",
+    "data",
+    "change"
+  ],
+  "main": "dist/node.api.js",
+  "author": "Yannik Wissner <hello@yannik.im>",
+  "repository": "https://github.com/wappsify/react-static-file-watch-reload",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "watch": "yarn build --watch",
+    "build": "babel src --out-dir './dist' --extensions '.ts'"
+  },
+  "peerDependencies": {
+    "react-static": "^7.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "7.7.0",
+    "@babel/core": "7.7.0",
+    "@babel/preset-env": "7.7.1",
+    "@babel/preset-typescript": "7.7.0",
+    "react-static": "7.2.3"
+  },
+  "dependencies": {
+    "chokidar": "3.3.0"
+  }
+}
