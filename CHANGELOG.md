@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Add `prepublish` task in `package.json`
+- Update dependencies
 
 ## v1.0.1 (2019-11-07)
 
