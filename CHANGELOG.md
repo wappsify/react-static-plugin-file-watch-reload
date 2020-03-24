@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## v1.0.2 (2020-03-24)
 
 - Add `prepublish` task in `package.json`
 - Update dependencies
