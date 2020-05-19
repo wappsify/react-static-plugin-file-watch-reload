@@ -13,7 +13,7 @@
   ],
   "main": "dist/node.api.js",
   "author": "Yannik Wissner <hello@yannik.im>",
-  "repository": "https://github.com/wappsify/react-static-file-watch-reload",
+  "repository": "https://github.com/wappsify/react-static-plugin-file-watch-reload",
   "license": "MIT",
   "private": false,
   "scripts": {

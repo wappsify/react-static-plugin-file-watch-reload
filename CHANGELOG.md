@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Fix broken repository url in `package.json`
+
 ## v1.0.2 (2020-03-24)
 
 - Add `prepublish` task in `package.json`
