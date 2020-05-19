@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## v1.0.3 (2020-05-19)
 
 - Fix broken repository url in `package.json`
 - Update dependencies
