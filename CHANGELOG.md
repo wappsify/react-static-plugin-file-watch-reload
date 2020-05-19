@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Fix broken repository url in `package.json`
+- Update dependencies
 
 ## v1.0.2 (2020-03-24)
 
