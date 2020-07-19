@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.0.4 (2020-07-19)
+
+- Update `chokidar` (and babel / dev dependencies) to latest versions
+
 ## v1.0.3 (2020-05-19)
 
 - Fix broken repository url in `package.json`
