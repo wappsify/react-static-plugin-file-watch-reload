@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- Adjust `build` script to use escaped double quotes instead of single quotes (allows building on Windows)
+
 ## v1.0.4 (2020-07-19)
 
 - Update `chokidar` (and babel / dev dependencies) to latest versions

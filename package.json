@@ -19,7 +19,7 @@
   "scripts": {
     "watch": "yarn build --watch",
     "prepare": "yarn build",
-    "build": "babel src --out-dir './dist' --extensions '.ts'"
+    "build": "babel src --out-dir \"./dist\" --extensions \".ts\""
   },
   "peerDependencies": {
     "react-static": "^7.1.0"
