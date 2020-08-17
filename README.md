@@ -60,3 +60,13 @@ const defaultConfig = {
 ```
 
 Please refer to the [full API docs of `chokidar`](https://github.com/paulmillr/chokidar#api) to find out which configuration options are available.
+
+## FAQ
+
+### I am importing a JSON file in my `static.config.js` and the dev server does not load the new data when I change the file! How do I fix this?
+
+This is actually not a problem related to the plugin - the plugin simply watches files and then calls the `rebuildRoutes` function of `react-static` when appropriate.
+
+Instead, your problem lies with webpack - on startup of the react-static dev server, it creates a module for the imported JSON file. This however does not update when the JSON file does, which results in the behaviour you're seeing.
+
+To workaround this, use `fs.ReadFileSync` in your `static.config.js` to load the JSON file. With this approach you guarantee that the file is read "fresh" every time `rebuildRoutes` is called. See [this issue](https://github.com/wappsify/react-static-plugin-file-watch-reload/issues/7) for a code example.

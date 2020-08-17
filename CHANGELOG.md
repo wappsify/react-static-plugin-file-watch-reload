@@ -3,6 +3,7 @@
 ## Unreleased
 
 - Adjust `build` script to use escaped double quotes instead of single quotes (allows building on Windows)
+- Add FAQ section in README
 
 ## v1.0.4 (2020-07-19)
 
